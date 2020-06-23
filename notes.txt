@@ -1,0 +1,79 @@
+flow, JSON, 1 day: 
+https://waterservices.usgs.gov/nwis/iv/?format=json&sites=02333500
+https://waterservices.usgs.gov/nwis/iv/?format=json&sites=02333500&siteStatus=all
+
+graphs, perhaps better:
+https://waterdata.usgs.gov/monitoring-location/02333500/?agency_cd=USGS
+
+graphs, with more updates:
+
+https://waterdata.usgs.gov/nwisweb/graph?agency_cd=USGS&site_no=02333500&parm_cd=00060&period=7
+https://waterdata.usgs.gov/ga/nwis/uv/?site_no=02333500&PARAmeter_cd=00065,00060,00062,00010
+
+*****
+Big Creek, Greenway: http://water.usace.army.mil/a2w/CWMS_CRREL.cwms_data_api.get_dam_summary_json?p_location_id=22817039&p_unit_system=EN
+Settingdown Creek: http://water.usace.army.mil/a2w/CWMS_CRREL.cwms_data_api.get_dam_summary_json?p_location_id=25193039&p_unit_system=EN
+Etowah: http://water.usace.army.mil/a2w/CWMS_CRREL.cwms_data_api.get_dam_summary_json?p_location_id=23026039&p_unit_system=EN
+Chestatee, input to Lake Lanier: http://water.usace.army.mil/a2w/CWMS_CRREL.cwms_data_api.get_dam_summary_json?p_location_id=22987039&p_unit_system=EN
+Chatt above Lake Lanier: http://water.usace.army.mil/a2w/CWMS_CRREL.cwms_data_api.get_dam_summary_json?p_location_id=22980039&p_unit_system=EN
+Chatt just below Lake Lanier: http://water.usace.army.mil/a2w/CWMS_CRREL.cwms_data_api.get_dam_summary_json?p_location_id=25870039&p_unit_system=EN
+
+****
+LANIER
+Lake Lanier, better, with ts:
+http://water.usace.army.mil/a2w/CWMS_CRREL.cwms_data_api.get_lake_summary_json?p_location_id=32350039&p_source=CWMS&p_unit_system=EN
+
+***********
+Lake Lanier Level, nearly real time: http://water.usace.army.mil/a2w/CWMS_CRREL.cwms_data_api.get_dam_elev_json?p_location_id=32350039
+
+inflow, a bit weird: https://www.weather.gov/serfc/inflows_cmmg1
+***********
+works but all data:
+http://water.usace.army.mil/a2w/CWMS_CRREL.cwms_data_api.get_nearby_locations_json?p_source=CWMS&p_distance=-1
+
+*********
+
+16-channel overview - NOW with lightning 2020/01:
+https://www.star.nesdis.noaa.gov/GOES/conus.php?sat=G16
+
+
+This works:
+about 2.5 minutes after the end of a minute:
+see above
+https://weather.msfc.nasa.gov/sport/dynamic/goesEast/glm/conus/sport_goes16_glm_conus_group_20191019_2253.png
+
+see above
+https://www.goes-r.gov/multimedia/dataAndImageryVideosGoes-16.html#GOES-EastOperational
+https://weather.msfc.nasa.gov/cgi-bin/sportPublishData.pl?dataset=goeseastglm&product=group&loc=conus
+/sport/dynamic/goesEast/glm/conus/sport_goes16_glm_conus_group_20190912_0439.png
+
+https://weather.msfc.nasa.gov/sport/dynamic/goesEast/glm/conus/sport_goes16_glm_conus_group_20190912_0439.png
+
+http://re.ssec.wisc.edu/?products=G16-ABI-FD-BAND02.100,G16-ABI-FD-BAND13.65&center=36.62792196407514,-94.74951171874999&zoom=4&width=949&height=776&timeproduct=G16-ABI-FD-BAND13&timespan=-6t&animationspeed=50&labels=lines
+
+https://weather.msfc.nasa.gov/viewer/viewer.html?config=GOES
+
+http://sferics.us/
+
+curl -I https://radar.weather.gov/Legend/N0R/FFC_N0R_Legend_0.gif
+curl -I https://radar.weather.gov/RadarImg/N0R/FFC_N0R_0.gif
+
+against TOS:
+curl http://map.blitzortung.org/GEOjson/getjson.php
+
+http://en.blitzortung.org/forum.php
+
+2019/09/11 
+
+23:36
+
+removing lightning direct call / added map
+
+
+2019/08/26 
+
+4:48pm - released to AWS moments ago - LIVE!!!!!!
+
+2:21pm 
+removing "arch" directory with Open Street Maps stuff, GOES, etc.
+session stuff started from qemail / email / quick email / positive email check util.php
